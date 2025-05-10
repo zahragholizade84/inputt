@@ -1,0 +1,14 @@
+input{
+  display: none;
+}
+.label-image{
+ opacity: 0;
+
+}
+#y-image:checked ~ .label-eror{
+  
+  transform: scale(1);
+  opacity: 1;
+  backdrop-filter: blur(10px);
+
+}

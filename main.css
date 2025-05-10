@@ -1,3 +1,15 @@
+input {
+  display: none;
+}
 
+.label-image {
+  opacity: 0;
+}
+
+.label-image:checked ~ .label-eror {
+  transform: scale(1);
+  opacity: 1;
+  backdrop-filter: blur(10px);
+}
 
 /*# sourceMappingURL=main.css.map */
